@@ -1,7 +1,7 @@
 revamp.chapters.push(
 {title: "Heuristic",
 number: 1,
-privacy: 2,
+privacy: 1,
 content: `"Mika, I can't leave, I can't!" Yuu clutched the fabric of Mika's shirt, trying to pull him along. "I finally have a family! I won't lose you!"
 
 Mika used the last of his strength to weakly shove at Yuu. "Just go, you idiot! Now!"
@@ -40,29 +40,43 @@ Besides, wasn't he in so much more pain before? He could remember it entirely, b
 
 Mika winced at the high voice suddenly breaking the silence. He sat up to see that he had been lying on the red carpet of a large room.
 
-Krul was sitting on a throne at the top of the stairs, leaning majestically to one side. "I requested you to be brought here once the first part of the transformation was complete."
+Krul was sitting on a throne at the top of the stairs, leaning majestically to one side. "I requested you to be brought here once the first part of your transformation was complete."
 
 "Transformation...?"
 
-The queen picked up a cup from her armrest and Mika watched the red liquid inside slosh tantalizingly.
+Krul picked up a cup from her armrest and Mika watched the red liquid inside slosh tantalizingly.
 
-Then it hit him. The reason he could easily see the drink from such a distance, why neither he nor Krul was breathing by default, why he was so incredibly thirsty.
+Then it hit him. The reason he could easily see the drink from such a distance, why neither of them was breathing by default, why he was so incredibly thirsty.
 
-He was not dead. He was worse than dead.
+He was not dead.
 
-"Come on, Mika. Just drink this blood." Krul tilted the cup back and forth, and Mika involuntarily took a sharp breath, his eyes following the movement. Krul hummed. "Accept that this is your life now and I promise you you'll start feeling better. You'll become a complete vampire with an immortal body and strength far beyond that of a human."
+He was worse than dead.
 
-("No. No way! I refuse. I'd rather die as a human than live as a vampire!")
+"Come on, Mika. Just drink this blood." Krul tilted the cup back and forth, and Mika involuntarily took a sharp breath, his eyes following the movement like a cat watching a feather toy. Krul hummed. "Accept that this is your life now and I promise you you'll start feeling better. You'll become a complete vampire with an immortal body and strength far beyond that of a human."
 
-(Mention Yuu is captured somehow. Mention the demon thing maybe.)
+Now, Mika's last memory came flooding back. His family? slaughtered. Yuu? Incapacitated. Vampire blood? Forced into his mouth...Everything started falling into place and Mika leapt to his feet. "Yuu-chan! Where is he?"
 
-"But, perhaps you need more persuasion."
+Krul blinked. "Recovering. Humans are fragile, and he took quite a hit to the head. Don't worry, I have use for him yet." She stood and began approaching him, still holding the cup. "But that's not of importance now. You need to drink this human blood."
 
-One of the tall doors was opened by a vampire in uniform and a small figure was led into the room. It was Yuu with a distinct lack of livestock collar, and eerily calm. Mika's gaze focused suddenly on the bare skin of Yuu's neck and his breath caught in his dry, aching throat. "I..."
+Mika didn't know if her words made him relieved or more worried, but as much as he craved to know Yuu was okay, his body craved something else. This was made worse by the fact that Krul was currently bringing it to him. "No. No way! I refuse."
+
+She giggled. "Why do you fight it? Give your body what it desires."
+
+"I'd rather die as a human than live as a vampire!"
+
+Krul gave an exaggerated sigh, basically pouting. "I suspected this might happen. But if you don't drink blood, you can't die normally. You'll become a hideous demon."
+
+Mika trembled, but didn't respond, fighting the instincts that told him to grab the cup and take a sip.
+
+"Perhaps you need more persuasion."
+
+Just then, there was a knock on the door and Krul looked over. "Perfect timing, actually. You may enter!"
+
+One of the tall doors was opened by a vampire in uniform and a small figure was led into the room. It was Yuu with a distinct lack of livestock collar, and eerily calm. At first, Mika's heart soared to know the other was okay, but he was drawn suddenly to the bare skin of Yuu's neck and his breath caught in his dry, aching throat. "I..."
 
 "They told me I can save you if I give you my blood." Yuu raised his gaze from the floor and stared into Mika's eyes bravely.
 
-Mika took a step back and shook his head, distressed. "No. I won't do it!"
+Mika took a step back and shook his head, distressed. "Never. I won't do it!"
 
 "Mika! You can't starve yourself. Or I'll...I'll-!" He couldn't think of what to say. "I almost lost you once already!"
 
@@ -70,7 +84,7 @@ Mika took a step back and shook his head, distressed. "No. I won't do it!"
 
 "Hmm...an interesting development." Pondering the situation, Krul rested her head on the back of her hand. "A semi-vampire who wishes to remain so, and a human who would do anything for him..." She turned back to face the newly sired vampire again. "So, you desire to live among humans without consuming their blood? I suppose that could be arranged."
 
-Both boys' wide eyes were on her in a split second.
+The two boys' wide eyes were on her in a split second.
 
 "How would the both of you like to become my spies?"`}
 )

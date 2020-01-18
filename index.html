@@ -7,13 +7,13 @@
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
   <style>
     [v-cloak]   { display: none; }
-    .chapter    { padding: 3em 12%; }
-    .chapter p  { font-size: 1.16rem; margin-bottom: 1.4em; }
-    .chapter h1 { font-size: 1.5rem; padding-bottom: 1.5em; }
+    .chapter    { padding: 4em 12% 6em 12%; }
+    .chapter p  { font-size: 1.16rem; margin: 1.4em auto; }
+    .chapter h1 { font-size: 1.5rem; }
     .seraph p,
     .seraph h1  { font-family: 'Ibarra Real Nova', serif; }
     .indented p { text-indent: 4em; }
-    .ex-space p { margin-bottom: 2em; }
+    .ex-space p { margin: 2em auto; }
     .darkened p { opacity: 0.82; }
     .mini-txt { padding: 3em 1em; }
     .mini-txt p { font-size: 1rem; }
@@ -77,9 +77,10 @@
                   <h1 class="text-center">
                     {{ chapter.number }}. {{ chapter.title }}
                   </h1>
-                  <p v-for="line of chapter.content">
-                    {{ line }}
-                  </p>
+                  <div v-for="line of chapter.content">
+                    <v-divider v-if="line == '-'"></v-divider>
+                    <p v-else> {{ line }} </p>
+                  </div>
                 </div>
                 <div v-else>
                   <h1 class="text-center">Revamp</h1>

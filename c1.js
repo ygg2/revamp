@@ -1,6 +1,7 @@
 revamp.chapters.push(
 {title: "Heuristic",
 number: 1,
+privacy: 2,
 content: `"Mika, I can't leave, I can't!" Yuu clutched the fabric of Mika's shirt, trying to pull him along. "I finally have a family! I won't lose you!"
 
 Mika used the last of his strength to weakly shove at Yuu. "Just go, you idiot! Now!"
@@ -29,27 +30,31 @@ And with that, she sealed his fate with a kiss.
 
 Mika awoke to bright lights and piercing silence.
 
-Usually when he first woke up, his surroundings were somewhat blurry, but this time, everything was sharp, too sharp. The stairs which must have been several meters away appeared as clearly as if they were at an arm's length, and this change in his depth perception was almost dizzying. He tried to focus in on any sound instead, but there was not even breathing and the complete lack of noise made his head hurt almost as much as his parched throat.
+Usually when he first woke up, his surroundings were somewhat blurry, but this time everything was sharp, too sharp. The stairs which must have been several meters away appeared as clearly as if they were at an arm's length, and this change in his depth perception was almost dizzying. He tried to focus in on any sound instead, but there was not even breathing and the complete lack of noise made his head hurt nearly as much as his parched throat.
 
 Wait, but hadn't he died.
 
-And, wasn't he in so much pain before? He could remember it entirely, but now he felt better than ever.
+Besides, wasn't he in so much more pain before? He could remember it entirely, but now he felt better, maybe even better than ever in some ways.
 
-"Finally, you've become conscious."
+"Finally, you're conscious."
 
 Mika winced at the high voice suddenly breaking the silence. He sat up to see that he had been lying on the red carpet of a large room.
 
-Krul was sitting on a throne at the top of the stairs, leaning majestically to one side. "I requested that you be brought here once the first part of the transformation completed."
+Krul was sitting on a throne at the top of the stairs, leaning majestically to one side. "I requested you to be brought here once the first part of the transformation was complete."
 
 "Transformation...?"
 
-The queen picked up a cup from her armrest and tilted it back and forth, and Mika watched the red liquid inside slosh tantalizingly.
+The queen picked up a cup from her armrest and Mika watched the red liquid inside slosh tantalizingly.
 
-Then it hit him. The reason he could see the drink from so far away, why neither he nor Krul was breathing by default, why he was so incredibly thirsty.
+Then it hit him. The reason he could easily see the drink from such a distance, why neither he nor Krul was breathing by default, why he was so incredibly thirsty.
 
 He was not dead. He was worse than dead.
 
-(Mention Yuu is captured. Krul tempts Mika with blood.)
+"Come on, Mika. Just drink this blood." Krul tilted the cup back and forth, and Mika involuntarily took a sharp breath, his eyes following the movement. Krul hummed. "Accept that this is your life now and I promise you you'll start feeling better. You'll become a complete vampire with an immortal body and strength far beyond that of a human."
+
+("No. No way! I refuse. I'd rather die as a human than live as a vampire!")
+
+(Mention Yuu is captured somehow. Mention the demon thing maybe.)
 
 "But, perhaps you need more persuasion."
 
@@ -63,7 +68,7 @@ Mika took a step back and shook his head, distressed. "No. I won't do it!"
 
 "Look at me, Yuu-chan! I'm already becoming a monster. How could you say..." Mika clenched his fists weakly as if trying to hold onto the little humanity he had left. "Please. Don't ask me to do this."
 
-"Hmm...an interesting development." Pondering the situation, Krul rested her head on the back of her hand. "A semi-vampire who wishes to remain as such, and a human who would do anything for him..." She turned back to face the newly sired vampire again. "So, you desire to live among humans without consuming their blood? I suppose that could be arranged."
+"Hmm...an interesting development." Pondering the situation, Krul rested her head on the back of her hand. "A semi-vampire who wishes to remain so, and a human who would do anything for him..." She turned back to face the newly sired vampire again. "So, you desire to live among humans without consuming their blood? I suppose that could be arranged."
 
 Both boys' wide eyes were on her in a split second.
 

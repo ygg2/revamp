@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet"> 
+  <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
+  <style>
+    [v-cloak]   { display: none; }
+    .chapter p  { font-size: 1.16rem; margin-bottom: 1.4em; }
+    .chapter h1 { font-size: 1.5rem; padding-bottom: 1.5em; }
+    .seraph p,
+    .seraph h1  { font-family: 'Ibarra Real Nova', serif; }
+    .indented p { text-indent: 4em; }
+    .ex-space p { margin-bottom: 2em; }
+    .darkened p { opacity: 0.85; }
+  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+</head>
+<body>
+  <div id="app" v-cloak>
+    <v-app :style="{background: $vuetify.theme.themes[theme].background}">
+
+      <v-app-bar app hide-on-scroll class="d-lg-none" dark color="accent">
+        <v-app-bar-nav-icon @click.stop="nav = !nav"></v-app-bar-nav-icon>
+        <v-toolbar-title>Revamp</v-toolbar-title>
+      </v-app-bar>
+
+      <v-navigation-drawer app v-model="nav" :expand-on-hover="$vuetify.breakpoint.lg" :src="`nav_${theme}.jpg`">
+        <v-list>
+          <v-list-item-group v-model="chapterIndex" mandatory>
+            <v-list-item>Cover</v-list-item>
+            <v-list-item v-for="chap of chapters" :key="chap.number">
+              <v-list-item-avatar color="accent">
+                <v-img v-if="chap.icon" src="icon.png"></v-img>
+                <span v-else class="white--text">{{ chap.number }}</span>
+              </v-list-item-avatar>
+              <v-list-item-content>
+                <v-list-item-title>
+                  {{ chap.number }}. {{ chap.title }}
+                </v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list-item-group>
+        </v-list>
+        <template v-slot:append>
+          <v-list-item @click="showOptions = true">
+            <v-list-item-icon>
+              <v-icon color="accent">mdi-settings</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title>
+              Options
+            </v-list-item-title>
+          </v-list-item>
+        </template>
+      </v-navigation-drawer>
+  
+      <v-content>
+
+        <v-container fluid style="padding-bottom:10em">
+          <v-row align="center" justify="center">
+            <v-sheet elevation="6" width="1000" color="paper">
+              <div style="padding:6% 12%" :class="themeText" class="chapter">
+                <div v-if="chapterIndex">
+                  <h1 class="text-center">{{ chapter.number }}. {{ chapter.title }}</h1>
+                  <p v-for="line of chapter.content">
+                    {{ line }}
+                  </p>
+                </div>
+                <div v-else>
+                  <h1 class="text-center">Revamp</h1>
+                  <p><i>[Cover coming someday]</i></p>
+                  <p>Vampires? In <em>my</em> JIDA? It's more likely than you think.</p>
+                </div>
+              </div>
+            </v-sheet>
+          </v-row>
+        </v-container>
+
+        <v-dialog v-model="showOptions" width="600px">
+          <v-card>
+            <v-toolbar dark color="accent">
+              <v-toolbar-title>Options</v-toolbar-title>
+              <v-spacer></v-spacer>
+              <v-toolbar-items>
+                <v-btn icon dark @click="showOptions = !showOptions">
+                  <v-icon>mdi-close</v-icon>
+                </v-btn>
+              </v-toolbar-items>
+            </v-toolbar>
+            <v-list>
+              <v-list-item>
+                <v-switch v-model="$vuetify.theme.dark" label="Dark Theme"></v-switch>
+              </v-list-item>
+              <v-list-item>
+                <v-switch v-model="options.seraph" label="Serif Font"></v-switch>
+              </v-list-item>
+              <v-list-item>
+                <v-switch v-model="options.indent" label="Paragraph Indent"></v-switch>
+              </v-list-item>
+              <v-list-item>
+                <v-switch v-model="options.spaced" label="Increased Margin"></v-switch>
+              </v-list-item>
+            </v-list>
+          </v-card>
+        </v-dialog>
+  
+      </v-content>
+  
+    </v-app>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.x/dist/vue.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.js"></script>
+  <script>
+    var revamp = new Vue({
+      el: '#app',
+      vuetify: new Vuetify({
+        theme: {
+          dark: false,
+          themes: {
+            light: {
+              background: '#fff4e5',
+              paper: '#ffffff',
+              accent: "#633b32"
+            },
+            dark: {
+              background: '#3f2727',
+              paper: '#231111',
+              accent: "#ec407a"
+            }
+          }
+        }
+      }),
+      data: {
+        chapterIndex: 0,
+        chapters: [],
+        showOptions: false,
+        nav: null,
+        options: {
+          dark: false,
+          seraph: true,
+          indent: false,
+          spaced: false
+        }
+      },
+      computed: {
+        chapter() {
+          return this.chapterIndex ? this.chapters[this.chapterIndex - 1] : {};
+        },
+        theme() {
+          return this.$vuetify.theme.dark ? 'dark' : 'light';
+        },
+        themeText() {
+          return {
+            'pink--text text--lighten-3 darkened': this.$vuetify.theme.dark,
+            'seraph': this.options.seraph,
+            'indented': this.options.indent,
+            'ex-space': this.options.spaced
+          }
+        }
+      },
+      watch: {
+        showOptions() {
+          this.options.dark = this.$vuetify.theme.dark;
+          localStorage.setItem('options', JSON.stringify(this.options))
+        },
+        chapterIndex() {
+          localStorage.setItem('chapter', this.chapterIndex)
+        }
+      },
+      methods: {
+        preprocessChapters() {
+          for (let chap of this.chapters) {
+            chap.content = chap.content.split('\n\n');
+          }
+          let _chapter = localStorage.getItem('chapter');
+          if (_chapter) this.chapterIndex = parseInt(_chapter, 10)
+        }
+      },
+      mounted() {
+        let _options = localStorage.getItem('options');
+        if (_options) this.options = JSON.parse(_options);
+        this.$vuetify.theme.dark = this.options.dark;
+      }
+    })
+  </script>
+  <script src="c1.js"></script>
+  <script>
+    revamp.preprocessChapters();
+  </script>
+</body>
+</html>

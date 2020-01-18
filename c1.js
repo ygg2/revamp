@@ -4,15 +4,15 @@ number: 1,
 privacy: 1,
 content: `"Mika, I can't leave, I can't!" Yuu clutched the fabric of Mika's shirt, trying to pull him along. "I finally have a family! I won't lose you!"
 
-Mika used the last of his strength to weakly shove at Yuu. "Just go, you idiot! Now!"
+Mika used the last of his strength to weakly shove Yuu. "Just go, you idiot! Now!"
 
-At that moment, a short vampire with her hair in pink pigtails appeared in the doorway. She immediately took notice of Ferid lying on the floor with a gun wound in his head. "Oh my. How did these children catch you by surprise? You're a seventh progenitor for crying out loud."
+At that moment, a short vampire with her pink hair tied up in pigtails appeared in the doorway. She immediately took notice of Ferid lying on the floor with a gun wound in his head. "Oh my. How did these children catch you by surprise? You're a seventh progenitor for crying out loud."
 
 Ferid sat up and smiled smugly at her. "What a treat to be visited by our beloved Queen, Krul Tepes."
 
 "My seraphs were among these children. If you have any explanation for your actions, now would be the time to start."
 
-Desperately hoping the vampires were distracted, Yuu continued pulling at Mika, who no longer had enough strength to resist. They moved inch by inch toward potential escape while the nobles threatened each other - something about seraphs and councils, but Yuu couldn't be bothered to pay attention, until Ferid dramatically left the room and the queen was free to direct her disdainful glare elsewhere.
+Desperately hoping the vampires were distracted, Yuu continued pulling Mika, who no longer had enough strength to resist. They moved inch by inch toward potential escape while the nobles threatened each other - something about seraphs and councils, but Yuu couldn't be bothered to pay attention, until Ferid dramatically left the room and the queen was free to direct her disdainful glare elsewhere.
 
 "Now that that nuisance is dealt with..." Krul turned her attention toward the black haired boy who was trying and failing at subtly dragging a 90% dead boy out of Sanguinem. She used her vampiric speed to intercept them. "What do we have here?" She tilted her head, seeming to be contemplating something.
 

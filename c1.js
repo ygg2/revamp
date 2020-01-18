@@ -54,7 +54,7 @@ He was worse than dead.
 
 "Come on, Mika. Just drink this blood." Krul tilted the cup back and forth, and Mika involuntarily took a sharp breath, his eyes following the movement like a cat watching a feather toy. Krul hummed. "Accept that this is your life now and I promise you you'll start feeling better. You'll become a complete vampire with an immortal body and strength far beyond that of a human."
 
-Now, Mika's last memory came flooding back. His family? slaughtered. Yuu? Incapacitated. Vampire blood? Forced into his mouth...Everything started falling into place and Mika leapt to his feet. "Yuu-chan! Where is he?"
+Now, Mika's last memory came flooding back. His family? slaughtered. Yuu? incapacitated. Vampire blood? forced into his mouth...Everything started falling into place and Mika leapt to his feet. "Yuu-chan! Where is he?"
 
 Krul blinked. "Recovering. Humans are fragile, and he took quite a hit to the head. Don't worry, I have use for him yet." She stood and began approaching him, still holding the cup. "But that's not of importance now. You need to drink this human blood."
 

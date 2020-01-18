@@ -14,12 +14,13 @@
     .seraph h1  { font-family: 'Ibarra Real Nova', serif; }
     .indented p { text-indent: 4em; }
     .ex-space p { margin-bottom: 2em; }
-    .darkened p { opacity: 0.83; }
+    .darkened p { opacity: 0.82; }
     .mini-txt { padding: 3em 1em; }
     .mini-txt p { font-size: 1rem; }
   </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+  <title>Revamp</title>
 </head>
 <body>
   <div id="app" v-cloak>
@@ -36,6 +37,7 @@
         class="pb-12 pb-sm-0"
         :expand-on-hover="$vuetify.breakpoint.lg"
         :src="`nav_${theme}.jpg`"
+        :floating="$vuetify.theme.dark"
       >
         <v-list>
           <v-list-item-group v-model="chapterIndex" mandatory>
@@ -158,7 +160,7 @@
       },
       computed: {
         chapter() {
-          return this.chapterIndex ? this.chapters[this.chapterIndex - 1] : {};
+          return this.chapters[this.chapterIndex - 1];
         },
         theme() {
           return this.$vuetify.theme.dark ? 'dark' : 'light';
@@ -180,17 +182,27 @@
         },
         chapterIndex() {
           localStorage.setItem('chapter', this.chapterIndex)
+          document.title = this.chapterIndex
+            ? `Revamp - ${this.chapter.number}. ${this.chapter.title}`
+            : 'Revamp';
         }
       },
       methods: {
         preprocessChapters() {
+          // block early access
+          _privacy = 0
+          if (window.location.hash == '#mika') _privacy = 1;
+          if (window.location.hash == '#milk') _privacy = 2;
+          this.chapters = this.chapters.filter(c => c.privacy <= _privacy);
+          // split chapters into lines
           for (let chap of this.chapters) {
             chap.content = chap.content.split('\n\n');
           }
           let _chapter = localStorage.getItem('chapter');
-          if (_chapter) this.chapterIndex = parseInt(_chapter, 10)
-          // block early access
-          if (window.location.hash != '#early') this.chapters.splice(0)
+          if (_chapter) this.chapterIndex = parseInt(_chapter, 10);
+          if (this.chapterIndex > this.chapters.length) {
+            this.chapterIndex = this.chapters.length;
+          }
         }
       },
       mounted() {
@@ -201,6 +213,7 @@
     })
   </script>
   <script src="c1.js"></script>
+  <script src="c4.js"></script>
   <script>
     revamp.preprocessChapters();
   </script>

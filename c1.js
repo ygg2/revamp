@@ -45,7 +45,7 @@ Krul was sitting on a throne at the top of the stairs, leaning majestically to o
 
 The queen picked up a cup from her armrest and tilted it back and forth, and Mika watched the red liquid inside slosh tantalizingly.
 
-Then it hit him. The reason he could see the drink from so far away, why neither he nor Krul was breathing by default, why he was so /thirsty/.
+Then it hit him. The reason he could see the drink from so far away, why neither he nor Krul was breathing by default, why he was so incredibly thirsty.
 
 He was not dead. He was worse than dead.
 

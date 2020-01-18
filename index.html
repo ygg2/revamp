@@ -7,13 +7,16 @@
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet">
   <style>
     [v-cloak]   { display: none; }
+    .chapter    { padding: 3em 12%; }
     .chapter p  { font-size: 1.16rem; margin-bottom: 1.4em; }
     .chapter h1 { font-size: 1.5rem; padding-bottom: 1.5em; }
     .seraph p,
     .seraph h1  { font-family: 'Ibarra Real Nova', serif; }
     .indented p { text-indent: 4em; }
     .ex-space p { margin-bottom: 2em; }
-    .darkened p { opacity: 0.85; }
+    .darkened p { opacity: 0.83; }
+    .mini-txt { padding: 3em 1em; }
+    .mini-txt p { font-size: 1rem; }
   </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
@@ -27,7 +30,13 @@
         <v-toolbar-title>Revamp</v-toolbar-title>
       </v-app-bar>
 
-      <v-navigation-drawer app v-model="nav" :expand-on-hover="$vuetify.breakpoint.lg" :src="`nav_${theme}.jpg`">
+      <v-navigation-drawer
+        app
+        v-model="nav"
+        class="pb-12 pb-sm-0"
+        :expand-on-hover="$vuetify.breakpoint.lg"
+        :src="`nav_${theme}.jpg`"
+      >
         <v-list>
           <v-list-item-group v-model="chapterIndex" mandatory>
             <v-list-item>Cover</v-list-item>
@@ -61,9 +70,11 @@
         <v-container fluid style="padding-bottom:10em">
           <v-row align="center" justify="center">
             <v-sheet elevation="6" width="1000" color="paper">
-              <div style="padding:6% 12%" :class="themeText" class="chapter">
+              <div :class="themeText" class="chapter">
                 <div v-if="chapterIndex">
-                  <h1 class="text-center">{{ chapter.number }}. {{ chapter.title }}</h1>
+                  <h1 class="text-center">
+                    {{ chapter.number }}. {{ chapter.title }}
+                  </h1>
                   <p v-for="line of chapter.content">
                     {{ line }}
                   </p>
@@ -154,6 +165,7 @@
         },
         themeText() {
           return {
+            'mini-txt': this.$vuetify.breakpoint.xsOnly,
             'pink--text text--lighten-3 darkened': this.$vuetify.theme.dark,
             'seraph': this.options.seraph,
             'indented': this.options.indent,
@@ -177,6 +189,8 @@
           }
           let _chapter = localStorage.getItem('chapter');
           if (_chapter) this.chapterIndex = parseInt(_chapter, 10)
+          // block early access
+          if (window.location.hash != '#early') this.chapters.splice(0)
         }
       },
       mounted() {

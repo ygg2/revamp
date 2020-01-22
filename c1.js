@@ -6,7 +6,7 @@ content: `"Mika, I can't leave, I can't!" Yuu clutched the fabric of Mika's shir
 
 Mika used the last of his strength to weakly shove Yuu. "Just go, you idiot! Now!"
 
-At that moment, a short vampire with her pink hair tied up in pigtails appeared in the doorway. She immediately took notice of Ferid lying on the floor with a gun wound in his head. "Oh my. How did these children catch you by surprise? You're a seventh progenitor for crying out loud."
+At that moment, a short vampire with her pink hair in pigtails appeared in the doorway. She immediately took notice of Ferid lying on the floor with a gun wound in his head. "Oh my. How did these children catch you by surprise? You're a seventh progenitor for crying out loud."
 
 Ferid sat up and smiled smugly at her. "What a treat to be visited by our beloved Queen, Krul Tepes."
 
@@ -56,7 +56,7 @@ He was worse than dead.
 
 Now, Mika's last memory came flooding back. His family? slaughtered. Yuu? incapacitated. Vampire blood? forced into his mouth...Everything started falling into place and Mika leapt to his feet. "Yuu-chan! Where is he?"
 
-Krul blinked. "Recovering. Humans are fragile, and he took quite a hit to the head. Don't worry, I have use for him yet." She stood and began approaching him, still holding the cup. "But that's not of importance now. You need to drink this human blood."
+Krul blinked. "Recovering. Humans are fragile, and he took quite a hit to the head. Don't worry, I have use for him yet." She stood, cup still in hand, and took a step. Oh, she was approaching him. "But that's not of importance now. You need to drink this human blood."
 
 Mika didn't know if her words made him relieved or more worried, but as much as he craved to know Yuu was okay, his body craved something else. This was made worse by the fact that Krul was currently bringing it to him. "No. No way! I refuse."
 

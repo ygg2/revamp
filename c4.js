@@ -18,7 +18,7 @@ The metaphorical gears in Mika's head were spinning doubly fast. "So! If that's 
 
 In the hallway, Mika frantically looked around for the nearest bathroom for Yuu to spit out the blood, but said boy suddenly grabbing his arm stopped him. Yuu's face was pale. "Mika, I feel..."
 
-Mika's throat seemed dry but not from lack of blood. This couldn't be happening. "Yuu-chan...you didn't already...swallow any, did you?"
+Mika's throat seemed dry but not from lack of blood. This couldn't be happening. "Yuu-chan...you didn't already...<i>swallow</i> any, did you?"
 
 "Just a little!" He swayed slightly in place.
 
@@ -30,13 +30,13 @@ For a second, Mika reviewed his entire existence. "Yuu-chan?"
 
 He helped Yuu who leaned stumbling.
 
--Mika manages to get Yuu in but before Yuu starts screaming. He buries Yuu in pillows (Vamps don't need to breathe and he needs to stifle the screams)
+[Mika manages to get Yuu in but before Yuu starts screaming. He buries Yuu in pillows (Vamps don't need to breathe and he needs to stifle the screams)]
 
 In a panic, Mika smothered Yuu in blankets. Vampires didn't need to breathe so it would be fine.
 
-But the glass break alarm goes off
+[But the glass break alarm goes off]
 
-Mika rushes into the hall with a lamp and throws it on the floor. He starts crying. People show up and take Mika to get cleaned up. They ignore the music in the room. Mika's cut heals too fast so he's like "Guess small cuts can bleed a lot" he crushed the lamp before throwing it.
+[Mika rushes into the hall with a lamp and throws it on the floor. He starts crying. People show up and take Mika to get cleaned up. They ignore the music in the room. Mika's cut heals too fast so he's like "Guess small cuts can bleed a lot" he crushed the lamp before throwing it.]
 
 "I...wanted to get it replaced, but..."
 

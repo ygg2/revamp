@@ -9,7 +9,7 @@
     [v-cloak]   { display: none; }
     .chapter    { padding: 4em 12% 6em 12%; }
     .chapter p  { font-size: 1.16rem; margin: 1.4em auto; }
-    .chapter h1 { font-size: 1.5rem; }
+    .chapter h1 { font-size: 1.5rem; margin-bottom: 2em; }
     .seraph p,
     .seraph h1  { font-family: 'Ibarra Real Nova', serif; }
     .indented p { text-indent: 4em; }
@@ -17,6 +17,24 @@
     .darkened p { opacity: 0.82; }
     .mini-txt { padding: 3em 1em; }
     .mini-txt p { font-size: 1rem; }
+    hr {
+      border: none; height: 1px; margin: 2.5em 0;
+      background: linear-gradient(
+        to right,
+        transparent 12%,
+        #00000066 20%, 80%,
+        transparent 88%
+      );
+    }
+    .pink--text hr {
+      background: linear-gradient(
+        to right,
+        transparent 12%,
+        #F48FB177 20%, 80%,
+        transparent 88%
+      );
+    }
+    .ex-space hr { margin: 4em; }
   </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
@@ -38,6 +56,7 @@
         :expand-on-hover="$vuetify.breakpoint.lg"
         :src="`nav_${theme}.jpg`"
         :floating="$vuetify.theme.dark"
+        mini-variant-width="64"
       >
         <v-list>
           <v-list-item-group v-model="chapterIndex" mandatory>
@@ -77,9 +96,7 @@
                   <h1 class="text-center">
                     {{ chapter.number }}. {{ chapter.title }}
                   </h1>
-                  <div v-for="line of chapter.content">
-                    <v-divider v-if="line == '-'"></v-divider>
-                    <p v-else> {{ line }} </p>
+                  <div v-for="line of chapter.content" v-html="line">
                   </div>
                 </div>
                 <div v-else>
@@ -197,7 +214,16 @@
           this.chapters = this.chapters.filter(c => c.privacy <= _privacy);
           // split chapters into lines
           for (let chap of this.chapters) {
-            chap.content = chap.content.split('\n\n');
+            chap.content = chap.content.split('\n\n').map(line => {
+              if (line == '-') {
+                return '<hr>'
+              } else {
+                // this replace is just for writing
+                return `<p>${line}</p>`.replace(/\[.*?\]/g, (match) => 
+                  `<span style="color: #00bbbb">${match.slice(1, -1)}</span>`
+                )
+              }
+            });
           }
           let _chapter = localStorage.getItem('chapter');
           if (_chapter) this.chapterIndex = parseInt(_chapter, 10);
@@ -214,6 +240,7 @@
     })
   </script>
   <script src="c1.js"></script>
+  <script src="c2.js"></script>
   <script src="c4.js"></script>
   <script>
     revamp.preprocessChapters();

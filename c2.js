@@ -12,11 +12,11 @@ Ferid's was the worst, in Mika's professional opinion.
 
 "Want to see a magic finger trick?"
 
-Mika channeled all his energy into a glare. "No." Had Ferid asked if he wanted to see a rewind of his family dying, Mika's reaction would have been more fitting...oh well, anything concerning Ferid would receive the same amount of disgust.
+Mika channeled his energy into a cold glare. "<i>No.</i>" Had Ferid asked if he wanted to see a rewind of his family dying, this reaction would have been more fitting...oh well, anything concerning Ferid would receive the same amount of disgust.
 
 "Aw, it would be such fun!"
 
-"I already know it." He bent his thumb and placed a finger over it to create the illusion of his finger being cut in two.
+"I already know that trick." Still glaring vehemently, he bent his thumb and placed a finger over it, creating the illusion of his finger being cut in half.
 
 Ferid's gleeful smile could mean nothing good. "What a cute display! But I was thinking more like this-"
 
@@ -30,7 +30,9 @@ Fortunately, the other farewells were more palatable.
 
 -
 
-So here they were, armed with some insider info and a UV guard fastened to Mika's clothes, fluffy hair arranged to cover his pointed ears entirely. Krul had said she would deliver other supplies with her bat, Arukanu, once they were settled in.
+So here they were. For years, Mika had [imagined | dreamed of] going above ground, maybe even finding other humans [if he allowed himself to dream], but he had certainly not pictured it like this - arriving armed with a UV guard disguised as a livestock wristband, fluffy hair arranged over his pointed ears.
+
+Krul had said she would deliver other supplies with her bat, Arukanu, once they were settled in.
 
 -
 

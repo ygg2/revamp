@@ -219,17 +219,19 @@
                 return '<hr>'
               } else {
                 // this replace is just for writing
-                return `<p>${line}</p>`.replace(/\[.*?\]/g, (match) => 
+                return (`<p>${line}</p>`).replace(/\[.*?\]/g, (match) => 
                   `<span style="color: #00bbbb">${match.slice(1, -1)}</span>`
                 )
               }
             });
           }
           let _chapter = localStorage.getItem('chapter');
-          if (_chapter) this.chapterIndex = parseInt(_chapter, 10);
-          if (this.chapterIndex > this.chapters.length) {
-            this.chapterIndex = this.chapters.length;
-          }
+          this.$nextTick(() => {
+            if (_chapter) this.chapterIndex = parseInt(_chapter, 10);
+            if (this.chapterIndex > this.chapters.length) {
+              this.chapterIndex = this.chapters.length;
+            }
+          });
         }
       },
       mounted() {

@@ -1,5 +1,4 @@
-revamp.chapters.push({title:"Notes",number:-1,privacy:2,content:
-`(Revamp) Vampires? In <i>my</i> JIDA? It's more likely than you think
+(Revamp) Vampires? In <i>my</i> JIDA? It's more likely than you think
 
 • Food, housing, and arukanu stationery
 
@@ -314,4 +313,3 @@ Yoichi: i'd like to see the ocean...
 Yuu: we did that before! let's go
 
 Mika: you are not flying a helicopter again
-`})

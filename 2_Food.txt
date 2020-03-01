@@ -1,8 +1,4 @@
-revamp.chapters.push(
-{title: "Food, Housing, and Arukanu Stationery",
-number: 2,
-privacy: 2,
-content: `[spent a last sleepless night in Sanguinem]
+[spent a last sleepless night in Sanguinem]
 
 -
 
@@ -59,6 +55,3 @@ Guren squinted at them for an intense second and a half. Then he huffed and ran 
 "She did save your life."
 
 [((aggressively caring for her spies))]
-
-`}
-)

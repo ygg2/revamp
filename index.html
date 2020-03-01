@@ -211,7 +211,19 @@
         async preprocessChapters() {
           // chapter list
           let chapters = [
-            {title: "Heuristic", number: 1, privacy: 1, file: "1_Heuristic.txt"}
+            { title: "Notes", number: -1, prviacy: 2, file: "notes.txt" },
+            {
+              title: "Heuristic",
+              number: 1, privacy: 1, file: "1_Heuristic.txt"
+            },
+            {
+              title: "Food, Housing, and Arukanu Stationery",
+              number: 2, privacy: 2, file: "2_Food.txt"
+            },
+            {
+              title: "The Glass Break Alarm, Reprise",
+              number: 4, privacy: 2, file: "4_Glass_Break.txt"
+            }
           ];
           // filter content based on privacy level
           _privacy = 0

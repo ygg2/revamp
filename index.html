@@ -208,27 +208,44 @@
         }
       },
       methods: {
-        preprocessChapters() {
-          // block early access
+        async preprocessChapters() {
+          // chapter list
+          let chapters = [
+            {title: "Heuristic", number: 1, privacy: 1, file: "1_Heuristic.txt"}
+          ];
+          // filter content based on privacy level
           _privacy = 0
           if (window.location.hash == '#mika') _privacy = 1;
           if (window.location.hash == '#milk') _privacy = 2;
-          this.chapters = this.chapters.filter(c => c.privacy <= _privacy);
-          // split chapters into lines
-          for (let chap of this.chapters) {
-            chap.content = chap.content.split('\n\n').map(line => {
+          chapters = chapters.filter(c => c.privacy <= _privacy);
+          // read text files
+          for (let c of chapters) {
+            await fetch(`https://ygg2.github.io/revamp/${c.file}`)
+              .then(response => response.text())
+              .then(text => {
+                this.addChapterContent(c.title, c.number, text);
+              });
+          }
+          this.selectLastChapter();
+        },
+        addChapterContent(title, number, text) {
+          this.chapters.push({
+            title: title,
+            number: number,
+            content: text.split('\n\n').map(line => {
               if (line == '-') {
-                return '<hr>'
+                return '<hr>';
               } else if (line[0] == '#') {
-                return ''
+                return '';
               } else {
-                // this replace is just for writing
                 return (`<p>${line}</p>`).replace(/\[.*?\]/g, (match) => 
                   `<span style="color: #00bbbb">${match.slice(1, -1)}</span>`
                 )
               }
-            });
-          }
+            }),
+          });
+        },
+        selectLastChapter() {
           let _chapter = localStorage.getItem('chapter');
           this.$nextTick(() => {
             if (_chapter) this.chapterIndex = parseInt(_chapter, 10);
@@ -236,21 +253,15 @@
               this.chapterIndex = this.chapters.length;
             }
           });
-        }
+        },
       },
       mounted() {
         let _options = localStorage.getItem('options');
         if (_options) this.options = JSON.parse(_options);
         this.$vuetify.theme.dark = this.options.dark;
+        this.preprocessChapters();
       }
     })
-  </script>
-  <script src="notes.js"></script>
-  <script src="c1.js"></script>
-  <script src="c2.js"></script>
-  <script src="c4.js"></script>
-  <script>
-    revamp.preprocessChapters();
   </script>
 </body>
 </html>

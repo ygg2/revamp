@@ -1,8 +1,4 @@
-revamp.chapters.push(
-{title: "Heuristic",
-number: 1,
-privacy: 1,
-content: `"Mika, I can't leave, I can't!" Yuu clutched the fabric of Mika's shirt, trying to pull him along. "I finally have a family! I won't lose you!"
+"Mika, I can't leave, I can't!" Yuu clutched the fabric of Mika's shirt, trying to pull him along. "I finally have a family! I won't lose you!"
 
 Mika used the last of his strength to weakly shove Yuu. "Just go, you idiot! Now!"
 
@@ -86,5 +82,4 @@ Mika took a step back and shook his head, distressed. "Never. I won't do it!"
 
 The two boys' wide eyes were on her in a split second.
 
-"How would the both of you like to become my spies?"`}
-)
+"How would the both of you like to become my spies?"

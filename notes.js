@@ -11,21 +11,21 @@ revamp.chapters.push({title:"Notes",number:-1,privacy:2,content:
 
 -
 
-With a cry, he hurled the bocks across the room into the corner. Some of the vials landed on the soft comforter of his bed, while others thumped onto the plush carpet and beanbag chairs, much to his dismay. All of the vials [were | remained] intact.
+With a cry, he hurled the box across the room into the corner. Some of the vials landed on the soft comforter of his bed, while others thumped onto the plush carpet and beanbag chairs, much to his dismay. All of the vials [were | remained] intact.
 
 -
 
-"Are you sure the drink is punch"
+#"Are you sure the drink is punch"
 
-Mika nodded carefully while feeling worried. He swallowed, his throat still craving the blood.
+#Mika nodded carefully while feeling worried. He swallowed, his throat still craving the blood.
 
-"You got punch!" Yuu had just barged into the room and his eyes [glittered | sparkled]. He snatched the cup from where Guren had just placed it back.
+#"You got punch!" Yuu had just barged into the room and his eyes [glittered | sparkled]. He snatched the cup from where Guren had just placed it back.
 
-Mika lunged for it "Wait no Yuu-chan"
+#Mika lunged for it "Wait no Yuu-chan"
 
-Yuu already was [drinking | sipping] the red liquid. He coughed and made a face "Mika, this is" He stopped because he saw Mika's terrified expression.
+#Yuu already was [drinking | sipping] the red liquid. He coughed and made a face "Mika, this is" He stopped because he saw Mika's terrified expression.
 
--
+#-
 
 The tapping on the window was getting a slight bit annoying so he unlatched it. In came an odd bat creature that was carrying a box in its claws.
 
@@ -43,9 +43,9 @@ The tapping on the window was getting a slight bit annoying so he unlatched it. 
 
 #-
 
-[Mika manages to get Yuu in but before Yuu starts screaming. He buries Yuu in pillows (Vamps don't need to breathe and he needs to stifle the screams) But the glass break alarm goes off]
+#[Mika manages to get Yuu in but before Yuu starts screaming. He buries Yuu in pillows (Vamps don't need to breathe and he needs to stifle the screams) But the glass break alarm goes off]
 
-Mika rushes into the hall with a lamp and throws it on the floor. He starts crying. People show up and take Mika to get cleaned up. They ignore the music in the room. Mika's cut heals too fast so he's like "Guess small cuts can bleed a lot" he crushed the lamp before throwing it.
+#Mika rushes into the hall with a lamp and throws it on the floor. He starts crying. People show up and take Mika to get cleaned up. They ignore the music in the room. Mika's cut heals too fast so he's like "Guess small cuts can bleed a lot" he crushed the lamp before throwing it.
 
 -
 
@@ -61,15 +61,15 @@ Who knew how it worked, but it did. [referring to the uv guards]
 
 After Arukanu breaks the window, the glass break alarm goes off again. Yuu jumps out the window and throws a rock into the room. People arrive as Yuu starts apologizing. Arukanu has flown off and Mika has to quickly hide the package
 
-In a panic, Mika smothered Yuu in blankets. Vampires didn't need to breathe so it would be fine.
+#In a panic, Mika smothered Yuu in blankets. Vampires didn't need to breathe so it would be fine.
 
-"I...wanted to get it replaced, but..."
+#"I...wanted to get it replaced, but..."
 
--
+#-
 
-Mika returned to the room as quickly as he could without causing suspicion. Inside, he shut the door and flopped down on the bed. The adrenaline now disappearing, Mika felt the weight of what was happening crashing down on him. Yuu-chan was going to become a monster, too...
+#Mika returned to the room as quickly as he could without causing suspicion. Inside, he shut the door and flopped down on the bed. The adrenaline now disappearing, Mika felt the weight of what was happening crashing down on him. Yuu-chan was going to become a monster, too...
 
-Real tears started to prick at his eyes and he wrapped his arms around the trembling bundle of blankets "I'm sorry, Yuu-chan"
+#Real tears started to prick at his eyes and he wrapped his arms around the trembling bundle of blankets "I'm sorry, Yuu-chan"
 
 -
 
@@ -136,7 +136,7 @@ Mika put his hand to his forehead and sighed. "Please don't."
 
 <strong>Random blood sharing stuff?</strong>
 
-Warm, salty liquid filled his mouth. Blood reheated from the microwave could not begin to rival this taste of fresh food. He faintly could hear Yuu sigh.
+Warm, salty liquid filled his mouth. Blood reheated from the microwave could not begin to rival this taste of fresh food. He could hear Yuu sigh faintly.
 
 Still licking the [residue | residual taste] off his fangs
 
@@ -144,9 +144,13 @@ Still licking the [residue | residual taste] off his fangs
 
 "No, actually...it felt really, really nice." Yuu touched his neck and brought his gaze up to meet Mika's (own).
 
-Mika's back hit the bed softly. Yuu was still nuzzled (nestled?) into his neck. "Can I drink from you, too?"
+Mika's back hit the bed softly. Yuu was still nestled into his neck. "Can I drink from you, too?"
 
-He shivered as Yuu's fangs grazed his neck.
+Mika let out a wavering breath and nodded. He shivered as Yuu's fangs grazed his neck.
+
+small but intense pain
+
+like he was suddenly highly aware of that spot on his neck more than anything else [like his thoughts that captured what nerves were feeling were suddenly only focused on this spot]
 
 It was like a wave, a cool rush through his body, followed by a tingling feeling.
 
@@ -202,6 +206,8 @@ Mika wrinkled his nose. Someone was burning popcorn downstairs again.
 
 Yuu gets a beanie later
 
+Yuu drinks cold milk at 1am right out of the refrigerator
+
 -
 
 the idea that a pair of 12 year olds somehow end thousands of years of human experimentation is delightful
@@ -213,6 +219,8 @@ the idea that a pair of 12 year olds somehow end thousands of years of human exp
 sun god aten yuu
 
 [they settle it with a duel]
+
+[sorry, aten is just so.....................yugioh to me]
 
 definitely there needs to be a really overdramatic ending battle
 
@@ -231,4 +239,79 @@ and yuu kisses mika's cheek and says something dumb like
 -
 
 (defiant is a good word, scrutiny for guren, fastened)
+
+- 
+
+"Have you ever heard of a vampire dying from acid?"
+
+"No, but-"
+
+"CANNONBALL"
+
+-
+
+"What are you reading?"
+
+Yuu glanced up from his book. "It's about the ocean."
+
+"The ocean?"
+
+He nodded. "Yeah. It sounds really pretty. It's blue and reflects light, like your eyes."
+
+Mika's cheeks had turned a shade of red, which complemented said eyes. "Oh."
+
+Yuu wasn't sure what this meant, so [after a moment] he went back to reading.
+
+-
+
+Light from a stained glass window
+
+-
+
+Mirai needs immediate medical treatment and Kimizuki talks about how he can't visit her. Yuu goes with him to visit Mirai, and they say they can't see her, and while kimi is screaming at a nurse or yuu overhears another doctor talking with someone about transferring her to section x and yuu doesnt mention it to kimi
+
+but later on, after that conversation about he being worried, yuu is talking with mika about that and how this is suspicious and uhhhhh shinoa pops up outta nowhere and says that she knows where it is! because she knows everything
+
+but i bet they cant get very far from there unless they infiltrate in a very ridiculous way, like in movies when people hide under a cart or smth
+
+the kids live in these apartments with just a room and maybe theres a common area and stuff. and only a few responsible adults looking over them. not shinoa and mitsuba cuz they have their families and have status so they have their own houses, its just that most kids r orphans
+
+ok, so maybe they find mirai and look over some files, who knows
+the thing is, who was experimenting on mirai was kureto
+
+lets say at some point they got several recorders and put them in different rooms at the low chance that someone would talk about confidential stuff, and they put one in gurens office cuz he is suspicious. and they spend half of the day listening to boring stuff (maybe there is a funny and weird conversation there). and a bit after the mirai incident guren is talking with sayuri or smth about how kureto took mirai and he is like hmmmmmmmmmmmmmmmm i need to get a seraph too!!!!! (idk, maybe its pertinent he does smth b4 him ???????????? )
+
+1- another seraph just pops up.
+
+2- yoichi is a seraph, this is how he is introduced. idk how they find this stuff out but whatever we don't need to clarify. he shows up after that with a rescue group. they intercepted the vampires taking them to sanguinem. and he is uh not ok
+
+3- they maybe decide to go after that seraph that was sealed (the one yuu fought after the mansion arc) to try to control him?? maybe this is close to the beach. maybe they are going there, and its a couple of days trip. and maybe mika and yuu hide in the car and are found out in a stop. and they are in the beach. and they are kinda mad at them and pause for a few hours to decide how to proceed with the intruders.
+
+-
+
+Yuu looked enamored as they rose into the clouds. "This is so cool. Is it a military helicopter?"
+
+"It's a VH-74. Got two engines and a composite rotor system."
+
+"Wow, you know so much about helicopters."
+
+The pilot shrugged. "One of the few things that still brings me joy in life."
+
+"Awesome! Can I fly it?"
+
+Theh vampire contemplated for a moment before stepping away from the control panel. "Sure, sounds fun."
+
+If Mika's heart hadn't already stopped, it surely would've at that.
+
+"YES!" Yuu was at the controls in less than a second.
+
+yuu: how long? (to get to the place or smth)
+
+vampire #74: until my death?
+
+Yoichi: i'd like to see the ocean...
+
+Yuu: we did that before! let's go
+
+Mika: you are not flying a helicopter again
 `})

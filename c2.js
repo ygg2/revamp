@@ -6,7 +6,7 @@ content: `[spent a last sleepless night in Sanguinem]
 
 -
 
-They received as heartfelt a send-off as those whose hearts had long stopped could give them.
+They received as heartfelt a send-off as those whose hearts had long ceased to beat could give them.
 
 Ferid's was the worst, in Mika's professional opinion.
 
@@ -30,7 +30,9 @@ Fortunately, the other farewells were more palatable.
 
 -
 
-So here they were. For years, Mika had [imagined | dreamed of] going above ground, maybe even finding other humans [if he allowed himself to dream], but he had certainly not pictured it like this - arriving armed with a UV guard disguised as a livestock wristband, fluffy hair arranged over his pointed ears.
+So here they were. For years, Mika had imagined going above ground, maybe even finding other humans if he allowed himself to dream, but he had certainly not pictured it like this - [sporting | wearing | arriving with] a UV guard [made to look like | disguised as | mimicking a livestock wristband | around his wrist], fluffy hair arranged over pointed ears.
+
+Nevertheless, a taste of freedom was more than welcome.
 
 Krul had said she would deliver other supplies with her bat, Arukanu, once they were settled in.
 

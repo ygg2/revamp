@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet"> 
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
@@ -178,6 +179,7 @@
       },
       computed: {
         chapter() {
+          window.scroll(0, 0)
           return this.chapters[this.chapterIndex - 1];
         },
         theme() {
@@ -217,6 +219,8 @@
             chap.content = chap.content.split('\n\n').map(line => {
               if (line == '-') {
                 return '<hr>'
+              } else if (line[0] == '#') {
+                return ''
               } else {
                 // this replace is just for writing
                 return (`<p>${line}</p>`).replace(/\[.*?\]/g, (match) => 
@@ -241,6 +245,7 @@
       }
     })
   </script>
+  <script src="notes.js"></script>
   <script src="c1.js"></script>
   <script src="c2.js"></script>
   <script src="c4.js"></script>

@@ -18,7 +18,7 @@ The metaphorical gears in Mika's head were spinning doubly fast. "So! If that's 
 
 In the hallway, Mika frantically looked around for the nearest bathroom for Yuu to spit out the blood, but said boy suddenly grabbing his arm stopped him. Yuu's face was pale. "Mika, I feel..."
 
-Mika's throat seemed dry but not from lack of blood. This couldn't be happening. "Yuu-chan...you didn't already...<i>swallow</i> any, did you?"
+Mika's throat felt dry. This couldn't be happening. "Yuu-chan...you didn't already...<i>swallow</i> any, did you?"
 
 "Just a little!" He swayed slightly in place.
 
@@ -42,5 +42,5 @@ In a panic, Mika smothered Yuu in blankets. Vampires didn't need to breathe so i
 
 Mika returned to the room as quickly as he could without causing suspicion. Inside, he shut the door and flopped down on the bed. The adrenaline now disappearing, Mika felt the weight of what was happening crashing down on him. Yuu-chan was going to become a monster, too...
 
-Real tears started to prick at his eyes and he wrapped his arms around the trembling bundle of blankets "I'm sorry, Yuu-chan"`}
+Real tears started to prick at his eyes and he wrapped his arms around the trembling bundle of blankets "I'm sorry, Yuu-chan."`}
 )

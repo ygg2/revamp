@@ -2,6 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Ibarra+Real+Nova&display=swap" rel="stylesheet"> 
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@4.x/css/materialdesignicons.min.css" rel="stylesheet">
@@ -37,8 +38,6 @@
     }
     .ex-space hr { margin: 4em; }
   </style>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
   <title>Revamp</title>
 </head>
 <body>
@@ -211,6 +210,7 @@
         async preprocessChapters() {
           // chapter list
           let chapters = [
+            { title: "Revamp", number: -2, privacy: 2, file: "outline.txt"},
             { title: "Notes", number: -1, privacy: 2, file: "notes.txt" },
             {
               title: "Heuristic",
@@ -231,12 +231,10 @@
           if (window.location.hash == '#milk') _privacy = 2;
           chapters = chapters.filter(c => c.privacy <= _privacy);
           // read text files
-          for (let c of chapters) {
-            await fetch(`https://ygg2.github.io/revamp/${c.file}`)
-              .then(response => response.text())
-              .then(text => {
-                this.addChapterContent(c.title, c.number, text);
-              });
+          for (let chapter of chapters) {
+            let response = await fetch(`./${chapter.file}`)
+            let text = await response.text()
+            this.addChapterContent(chapter.title, chapter.number, text);
           }
           this.selectLastChapter();
         },
